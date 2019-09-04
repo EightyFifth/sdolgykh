@@ -1,0 +1,31 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+#page-wrapper {
+  position: relative;
+  z-index: 2;
+}
+#header {
+  background-color: none;
+  height: 150px;
+  width: 150px;
+}
+#header a {
+  color: white;
+  text-decoration: none;
+  case-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.post {
+  color: white;
+}
+#particles-js {
+  height: 100%;
+  width: 100%;
+  background-image: url(main4.jpg);
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
